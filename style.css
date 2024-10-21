@@ -6,6 +6,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
+    border-width: 2px;
+    font-weight: 600;
 }
 
 .calculator{
@@ -13,7 +16,6 @@ body {
 
     display: flex;
     flex-direction: column;
-
     border: 2px solid black;
 }
 
@@ -39,12 +41,9 @@ body {
 }
 
 .button{
-    height: 24px; 
-    width: 24px;
+    height: 48px; 
+    width: 48px;
     margin: 2px;
-    border-width: 2px;
-
-    font-weight: 600;
 
     background-color: rgb(141, 141, 141);
     cursor:pointer;
