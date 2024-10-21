@@ -6,8 +6,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+
     border-width: 2px;
+    font-size: 32px;
     font-weight: 600;
 }
 
